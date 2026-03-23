@@ -1,0 +1,33 @@
+.container-main h3{
+    padding: 1rem;
+}
+
+.container-main.primeiro {
+    margin: -40px 0 0 0;
+}   
+
+.container-main.info {
+    display: flex;
+}
+
+.container-main.info div {
+    background-color: #4747eb56;
+    border-radius: 10px;
+    padding: 1rem;
+    border-left: 4px solid #4747eb;
+    margin-inline: 1rem;
+    flex: 0 1 100%;
+}
+.container-main.atividades {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-main.atividades p {
+    background-color: #23e74456;
+    color: green;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin-block: 1rem;
+    flex: 0 1 100%;
+}
