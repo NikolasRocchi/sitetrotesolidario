@@ -1,0 +1,17 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.logo {
+    margin-right: auto;
+    width: 12rem;
+    height: auto;
+}
+
+.container-header.navbarc {
+    align-self: stretch;
+    background-color: rgb(9, 9, 121);
+    height: min-content;
+}

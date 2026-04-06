@@ -1,0 +1,20 @@
+.header {
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.header img {
+    margin-bottom: 1.5rem;
+}
+.header h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.header p {
+    margin: 2rem 0 3rem 0;
+    font-size: 1.4rem;
+    color: #caae32;
+}
