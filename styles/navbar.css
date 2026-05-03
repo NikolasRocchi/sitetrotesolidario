@@ -1,17 +1,22 @@
 .navbar {
+    width: 100%;
+    border: none;
+}
+
+.nav-links {
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    gap: 10px;
 }
+
+.nav-links a {
+    display: inline-block;
+    background-color: var(--nav-bg-links);
+    border: 1px solid black;
+    padding: 8px;
+}
+
 
 .logo {
     margin-right: auto;
-    width: 12rem;
-    height: auto;
-}
-
-.container-header.navbarc {
-    align-self: stretch;
-    background-color: rgb(9, 9, 121);
-    height: min-content;
 }

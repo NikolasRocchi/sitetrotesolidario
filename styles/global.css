@@ -7,9 +7,11 @@
 }
 
 :root {
-    --bg-color: #eeeeee;
-    --default-color: #3f0b8d;
-    --navfont-color: #dfdaf3;
+    --bg-color: #EBD3F8;
+    --general-bg-color: #fff;
+    --nav-bg-color: #7A1CAC;
+    --nav-bg-links: #fff;
+    --default-color: #bf7ce4;
 }
 
 body {
@@ -17,7 +19,7 @@ body {
     flex-direction: column;
     align-items: center;
     color: black;
-    height: 100vh;
+    height: 100%;
     background-color: var(--bg-color);
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -27,28 +29,39 @@ ul {
 }
 
 a {
-    color: var(--navfont-color);
+    color: inherit;
     text-decoration: none;
-
+    white-space: nowrap;
 }
 
-.container-header {
-    background-color: var(--default-color);
-    padding: 2rem;
-}
-
-
-
-a:hover {
-    transition: 0.3s;
-    color: white;
+main {
+    width: 100%;
 }
 
 .container-main {
-    width: 900px;
+    width: 100%;
     background-color: white;
     padding: 2rem;
     margin-block: 2rem;
     border-radius: 1.2rem;
-    box-shadow: 0.2rem 0.2rem 0.2rem black;
+    box-shadow: 0.2rem 0.2rem black;
+}
+
+.container {
+    background-color: var(--default-color);
+    padding: 10px;
+}
+
+.shadow {
+    box-shadow: 4px 4px black;
+}
+
+.shadow-transition {
+    transition: ease 0.3s;
+}
+
+.shadow-transition:hover {
+    box-shadow: 4px 4px black;
+    transform: translate(-2px, -2px);
+    transition: ease 0.3s;
 }
