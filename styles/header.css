@@ -1,8 +1,9 @@
 .header {
     width: 100%;
-    border-bottom: 1px solid black;
     display: flex;
     justify-content: center;
+    border: none;
+    margin: 0;
 }
 
 header {
@@ -12,7 +13,6 @@ header {
     flex-direction: column;
     border: 1px solid black;
     padding: 16px;
-    background-color: var(--general-bg-color);
     width: 60%;
 }
 
@@ -27,4 +27,5 @@ header {
 .header p {
     margin: 2rem 0 3rem 0;
     font-size: 1.4rem;
+    text-align: center;
 }

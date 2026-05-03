@@ -7,21 +7,21 @@
 }
 
 :root {
-    --bg-color: #EBD3F8;
-    --general-bg-color: #fff;
-    --nav-bg-color: #7A1CAC;
-    --nav-bg-links: #fff;
-    --default-color: #bf7ce4;
+    --bg-color: #e4e1e1;
+    --default-color: #fff;
+    --text-color: #000000;
 }
 
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: black;
-    height: 100%;
     background-color: var(--bg-color);
-    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text-color);
+    height: 100%;
+    line-height: 1.5;
+    font-weight: 500;
+    font-family: monospace, Arial, sans-serif;
 }
 
 ul {
@@ -36,21 +36,20 @@ a {
 
 main {
     width: 100%;
-}
-
-.container-main {
-    width: 100%;
-    background-color: white;
-    padding: 2rem;
-    margin-block: 2rem;
-    border-radius: 1.2rem;
-    box-shadow: 0.2rem 0.2rem black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
+    width: 100%;
     background-color: var(--default-color);
-    padding: 10px;
+    padding: 16px;
+    border: 1px solid black;
+    margin-block: 16px;
 }
+
 
 .shadow {
     box-shadow: 4px 4px black;

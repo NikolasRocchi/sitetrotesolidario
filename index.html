@@ -5,16 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trote Solidário</title>
     <link rel="stylesheet" href="styles/index.css">
+    <script src="js/texto.js" defer></script>
 </head>
 <body>
     <div class="container navbar">
         <nav>
             <ul class="nav-links">
-                <li>
-                </li><img src="images/logo.png" alt="logo" class="logo">
-                <li> <a href="" class="shadow-transition">Início</a> </li>
-                <li> <a href="" class="shadow-transition">Introdução</a> </li>
-                <li> <a href="" class="shadow-transition">Formato</a> </li>
+                <li class="logo">
+                    <img src="images/logo.png" alt="logo">
+                </li>
+                <li> <a href="index.html" class="shadow-transition">Início</a> </li>
+                <li> <a href="pages/introducao.html" class="shadow-transition">Introdução</a> </li>
+                <li> <a href="pages/formato.html" class="shadow-transition">Formato</a> </li>
                 <li> <a href="" class="shadow-transition">Equipe</a> </li>
                 <li> <a href="" class="shadow-transition">Provas e Metas</a> </li>
                 <li> <a href="" class="shadow-transition">Integração</a> </li>
@@ -31,32 +33,40 @@
         </header>
     </div>
     <main>
-        <section class="container primeiro">
-            <h3>
-                Nossa Identidade
-            </h3>
-            <p>O UniFACEF, fundado em 1951, tem como missaão construir e difundir o conhecimentom contribuindo para a formação do ser humano cidadania</p>
-            <h3>
-                &#127891; Formação
-            </h3>
-            <p>
-                Capacitar cidadãos para a vida profissional e comunitária pelo saber e pelo ser[cite: 57]
-            </p>
-            <h3>
-                &#129309; Soliedáridade
-            </h3>
-            <p>
-                Participar da busca de soluções para os problemas da comunidade local e regional[cite: 66]
-            </p>
-            <h3>
-                &#128161; Ética
-            </h3>
-            <p>
-                Promover o bem comum e o progresso social através de ações éticas e humanas[cite: 55, 76]
-            </p>
+        <section class="container main shadow">
+                <div class="container shadow-transition">
+                    <h2 class="title">Nossa identidade</h2>
+                     <p>
+                         Capacitar cidadãos para a vida profissional e comunitária pelo saber e pelo ser[cite: 57]
+                     </p>
+                </div>
+                <div class="container shadow-transition">
+                     <h3>
+                         &#127891; Formação
+                    </h3>
+                    <p>
+                        Capacitar cidadãos para a vida profissional e       comunitária pelo saber e pelo ser[cite: 57]
+                    </p>
+                </div>
+                <div class="container shadow-transition">
+                    <h3>
+                        &#129309; Soliedáridade
+                    </h3>
+                    <p>
+                        Participar da busca de soluções para os problemas   da comunidade local e regional[cite: 66]
+                    </p>
+                </div>
+                <div class="container shadow-transition">
+                    <h3>
+                        &#128161; Ética
+                    </h3>
+                    <p>
+                        Promover o bem comum e o progresso social através de ações éticas e humanas[cite: 55, 76]
+                    </p>
+                </div>
         </section>
 
-        <section class="container-main">
+        <section class="objetivo">
             <h3>
                 Nosso Objetivo
             </h3>
@@ -64,48 +74,51 @@
                 Integrar os estudantes dos primeiros períodos à comunidade acadêmica com ações de soliedáridade para com a sociedade
             </p>
         </section>
-
-        <section class="container-main info">
-            <div>
+        <section class="container info shadow">
+            <h2>
+                Informações sobre o trote
+            </h2>
+            <div class="container shadow-transition">
                 <h3>
-                    &#128197; Entrega das Arrecadações
+                    Horas-Atividade
                 </h3>
-                <p>
-                    Dia 24/03/2026, das 8h às 10h00 na Unidade |
-                </p>
+                <div>
+                    <ul>
+                        <li>
+                            <p>
+                                30h: Kit Alimentação + Suplemento.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                20h: Doação de Sangue.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Limite: Até 60h por estudante.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div>
-                <h3>
-                    &#127881; Noite de Encerramento
-                </h3>
-                <p>
-                    Dia 27/03/2026, a partir das 19h15, no Hall Central da Unidade ||
-                </p>
-
-            </div>
-        </section>
-        <section class="container-main atividades" >
-            <h3>
-                Horas-Atividade
-            </h3>
-            <div>
-                <ul>
-                    <li>
+            <div class="info-text">
+                    <div class="container shadow-transition">
+                        <h3>
+                            &#128197; Entrega das Arrecadações
+                        </h3>
                         <p>
-                            30h: Kit Alimentação + Suplemento.
+                            Dia 24/03/2026, das 8h às 10h00 na Unidade |
                         </p>
-                    </li>
-                    <li>
+                    </div>
+                    <div class="container shadow-transition">
+                        <h3>
+                            &#127881; Noite de Encerramento
+                        </h3>
                         <p>
-                            20h: Doação de Sangue.
+                            Dia 27/03/2026, a partir das 19h15, no Hall Central da Unidade ||
                         </p>
-                    </li>
-                    <li>
-                        <p>
-                            Limite: Até 60h por estudante.
-                        </p>
-                    </li>
-                </ul>
+                    </div>
             </div>
         </section>
     </main>
