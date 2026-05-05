@@ -1,45 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css">
-    <title>Provas e Metas - Trote 2026</title>
-</head>
-<body>
-    <nav class="menu"> <!-- Menu de navegação -->
-            <div class="menu-container">
-                <a href="index.html" class="menu-logo"> Trote 2026 </a>
-                <ul class="lista">
-                    <li> <a href="index.html"> Início </a> </li>
-                    <li> <a href="introducao.html"> Introdução </a> </li>
-                    <li> <a href="formato.html"> Formato </a> </li>
-                    <li> <a href="equipes.html"> Equipes </a> </li>
-                    <li> <a href="provas.html"> Provas e Metas </a> </li>
-                    <li> <a href="integracao.html"> Integração </a> </li>
-                    <li> <a href="cronograma.html"> Cronograma </a> </li>
-                    <li> <a href="calculadora.html"> Calculadora </a> </li>
-                </ul>
-            </div>
-    </nav>
-    <main class="principal">
-        <section>
-            <h3>📦 1ª Prova: Kit Alimentação</h3>
-            <p>Para pontuar como "Kit", os itens devem estar embalados em plástico transparente. Cada kit completo vale a pontuação máxima proporcional da equipe.</p>
-            <div class="kit-container">
-                <ul class="lista-itens">
-                    <li>✅ 02 pacotes de 5kg de Arroz (Tipo 1) </li>
-                    <li>✅ 02 pacotes de 2kg de Feijão Carioca </li>
-                    <li>✅ 03 unidades de Óleo de Soja (900ml/1L) </li>
-                    <li>✅ 06 pacotes de Macarrão (500g) </li>
-                </ul>
-            </div>
-        </section>
-         <section>
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="../styles/index.css">
+        <title> Trote Solidário </title>
+    </head>
+    <body>
+       <div class="container navbar">
+        <nav>
+            <ul class="nav-links">
+                <li class="logo">
+                    <img src="../images/logo.png" alt="logo">
+                </li>
+                <li> <a href="../index.html" class="shadow-transition">Início</a> </li>
+                <li> <a href="introducao.html" class="shadow-transition">Introdução</a> </li>
+                <li> <a href="formato.html" class="shadow-transition">Formato</a> </li>
+                <li> <a href="equipes.html" class="shadow-transition">Equipe</a> </li>
+                <li> <a href="provas.html" class="shadow-transition">Provas e Metas</a> </li>
+                <li> <a href="integracao.html" class="shadow-transition">Integração</a> </li>
+                <li> <a href="cronograma.html" class="shadow-transition">Cronogramas</a> </li>
+                <li> <a href="calculadora.html" class="shadow-transition"> Calculadora</a> </li>
+            </ul>
+        </nav>
+    </div>
+     
+       <main>
+           <section class="container contain shadow space">
+                <h3 class="title">📦 1ª Prova: Kit Alimentação</h3>
+                <p>Para pontuar como "Kit", os itens devem estar embalados em plástico transparente. Cada kit completo vale a pontuação máxima proporcional da equipe.</p>
+                <div class="container shadow-transition">
+                    <ul class="listKit">
+                        <li>✅ <strong>02</strong> pacotes de 5kg de Arroz (Tipo 1) </li>
+                        <li>✅ <strong>02</strong> pacotes de 2kg de Feijão Carioca </li>
+                        <li>✅ <strong>03</strong> unidades de Óleo de Soja (900ml/1L) </li>
+                        <li>✅ <strong>06</strong> pacotes de Macarrão (500g) </li>
+                    </ul>
+                </div>
+            </section>
+         <section class="container-2 space">
             <h3>⚖️ Pontuação de Itens Avulsos</h3>
             <p>Kits incompletos ou itens extras serão pontuados individualmente:</p>
-            
-            <table>
-                <thead>
+            <table class="container shadow-transition">
+                <thead class="table-align">
                     <tr>
                         <th>Item</th>
                         <th>Pontos</th>
@@ -65,28 +67,27 @@
                 </tbody>
             </table>
         </section>
-         <section class="suplementos">
+         <section class="container shadow space">
             <h3>🍼 2ª Prova: Suplementos</h3>
             <p>Meta: 1 suplemento para cada 2 estudantes da equipe .</p>
             <p><strong>Marcas aceitas:</strong> Ensure ou Nutren 1.0 (Lata 400g - Baunilha).</p>
         </section>
-        <section >
+        <section class="container shadow space">
             <h3>🥛 3ª Prova: Campanha do Leite</h3>
             <p>Meta: 1 litro de leite para cada estudante da equipe.</p>
             <div>
-                <ul class="lista-itens">
+                <ul class="listKit">
                     <li>✅ Tipo: Leite Longa Vida UHT (Integral, Semidesnatado ou Desnatado)</li>
                     <li>⚠️ <strong>Atenção:</strong> A data de vencimento deve ser posterior a 02/06/2026.</li>
                 </ul>
             </div>
             <p>O cumprimento da meta garante uma pontuação final de 5.000 pontos.</p>
         </section>
-        <section>
-            <h3>🩸 4ª Prova: Doação de Sangue</h3>
+        <section class="container-2 space">
+            <h3 class="title">🩸 4ª Prova: Doação de Sangue</h3>
             <p>Meta: 01 doação para cada 02 estudantes da equipe.</p>
-            
-            <div>
-                <ul class="lista-itens">
+            <div class="contain">
+                <ul class="listKit">
                     <li>✅ Certificado: 20 horas-atividade por doador.</li>
                     <li>⚠️ <strong>Regra de Ouro:</strong> É terminantemente proibida a abordagem de doadores que já estejam no Hemocentro (ou chegando) para computar pontos.</li>
                     <li>📝 Controle: O líder do curso deve entregar a lista com os nomes dos doadores para a emissão dos certificados.</li>
@@ -94,12 +95,12 @@
             </div>
             <p>A meta cumprida garante 5.000 pontos para a equipe.</p>
         </section>
-        <section class="memorias-facef">
-            <h3>📸 5ª Prova: Memórias Uni-FACEF</h3>
+        <section class="container shadow space">
+            <h3 class="title">📸 5ª Prova: Memórias Uni-FACEF</h3>
             <p>Em celebração aos 75 anos do Uni-FACEF, os alunos são convidados a resgatar a história da nossa instituição.</p>
             
-            <div>
-                <ul class="lista-itens">
+            <div class="container shadow-transition">
+                <ul class="listKit">
                     <li>✅ <strong>Registros:</strong> Enviar no mínimo 10 registros históricos (fotos ou vídeos) inéditos.</li>
                     <li>✅ <strong>Período:</strong> Desde a fundação (1951) até o início dos anos 2000.</li>
                     <li>✅ <strong>Relato:</strong> Cada registro deve acompanhar um breve relato com ano, contexto e nomes das pessoas representadas.</li>
@@ -108,11 +109,11 @@
             </div>
             <p><strong>🏅 Premiação:</strong> As equipes que cumprirem a tarefa receberão uma Medalha de Menção Honrosa.</p>
         </section>
-        <section class="acao-social">
-            <h3>🤝 6ª Prova: Ação Social em Entidades</h3>
+        <section class="container contain shadow">
+            <h3 class="title">🤝 6ª Prova: Ação Social em Entidades</h3>
             <p>O objetivo é conhecer o trabalho de entidades sociais, identificar dificuldades e desenvolver formas criativas de ajuda.</p>
-            <div>
-                <ul class="lista-itens">
+            <div class="container shadow-transition">
+                <ul class="listKit">
                     <li>✅ <strong>Participação:</strong> Mínimo de 6 estudantes (pelo menos 4 calouros e 1 veterano).</li>
                     <li>✅ <strong>Entrega:</strong> Relatório de até 5 páginas (PDF) e um vídeo de até 90 segundos.</li>
                     <li>⚠️ <strong>Validação:</strong> A entidade escolhida deve ser informada via WhatsApp de Líderes para validação até 02/03/2026.</li>
@@ -121,11 +122,11 @@
             </div>
             <p><strong>🏅 Premiação:</strong> Medalha de Menção Honrosa para as equipes que cumprirem a tarefa.</p>
         </section>
-         <section class="album-figurinhas">
+         <section class="container-2 space">
             <h3>🎨 7ª Prova: Álbum de Figurinhas Uni-FACEF</h3>
             <p>O objetivo é registrar as memórias de todas as atividades realizadas durante a 1ª Etapa do Trote.</p>
-            <div>
-                <ul class="lista-itens">
+            <div class="container shadow-transition">
+                <ul class="listKit">
                     <li>✅ <strong>Ferramenta:</strong> Preenchimento do álbum digital via template exclusivo no Canva.</li>
                     <li>✅ <strong>Resolução:</strong> Fotos em alta resolução (mínimo 1080x1920 - FullHD).</li>
                     <li>✅ <strong>Formatos:</strong> Arquivos aceitos em JPEG, HEIC ou PNG.</li>
@@ -134,10 +135,10 @@
             </div>
             <p><strong>🏅 Premiação:</strong> Medalha de Menção Honrosa para as equipes que completarem o álbum.</p>
         </section>
-    </main>
-    <footer>
-        <p>Coordenação Trote Solidário 2026: trotesolidario@facef.br </p>
-        <p>Uni-FACEF - Centro Universitário Municipal de Franca </p>
-    </footer>
-</body>
+       </main>    
+        <footer class="footer">
+            <p>Coordenação Trote Solidário 2026: trotesolidario@facef.br</p>
+            <p>Uni-FACEF - Centro Universitário Municipal de Franca</p>
+        </footer>
+    </body>
 </html>

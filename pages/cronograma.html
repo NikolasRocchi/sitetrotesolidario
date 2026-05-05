@@ -1,65 +1,70 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css">
-    <title>Provas e Metas - Trote 2026</title>
-</head>
-<body>
-    <nav class="menu"> <!-- Menu de navegação -->
-            <div class="menu-container">
-                <a href="index.html" class="menu-logo"> Trote 2026 </a>
-                <ul class="lista">
-                    <li> <a href="index.html"> Início </a> </li>
-                    <li> <a href="introducao.html"> Introdução </a> </li>
-                    <li> <a href="formato.html"> Formato </a> </li>
-                    <li> <a href="equipes.html"> Equipes </a> </li>
-                    <li> <a href="provas.html"> Provas e Metas </a> </li>
-                    <li> <a href="integracao.html"> Integração </a> </li>
-                    <li> <a href="cronograma.html"> Cronograma </a> </li>
-                    <li> <a href="calculadora.html"> Calculadora </a> </li>
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="../styles/index.css">
+        <title> Trote Solidário </title>
+    </head>
+    <body>
+       <div class="container navbar">
+        <nav>
+            <ul class="nav-links">
+                <li class="logo">
+                    <img src="../images/logo.png" alt="logo">
+                </li>
+                <li> <a href="../index.html" class="shadow-transition">Início</a> </li>
+                <li> <a href="introducao.html" class="shadow-transition">Introdução</a> </li>
+                <li> <a href="formato.html" class="shadow-transition">Formato</a> </li>
+                <li> <a href="equipes.html" class="shadow-transition">Equipe</a> </li>
+                <li> <a href="provas.html" class="shadow-transition">Provas e Metas</a> </li>
+                <li> <a href="integracao.html" class="shadow-transition">Integração</a> </li>
+                <li> <a href="cronograma.html" class="shadow-transition">Cronogramas</a> </li>
+                <li> <a href="calculadora.html" class="shadow-transition"> Calculadora</a> </li>
+            </ul>
+        </nav>
+    </div>
+     
+       <main>
+           <section class="container">
+            <h3 class="title"> 📅 Datas importantes </h3>
+            <div> 
+                <ul class="listKit contain shadow-transition container">
+                    <li>
+                        <strong>24 de fevereiro</strong>
+                        <p>Abertura oficial</p>
+                    </li>
+                    <li>
+                        <strong>02 de Março</strong>
+                        <p>Data limite para informar entidade social</p>
+                    </li>
+                    <li>
+                        <strong>24 de março </strong>
+                        <p> Entrega dos alimentos </p>
+                    </li>
+                    <li>
+                        <strong> 27 de março </strong>
+                        <p> Noite de encerramento </p>
+                    </li>
                 </ul>
             </div>
-    </nav>
-    <main class="principal">
-        <section>
-            <h3> 📅 Datas importantes </h3>
-            <div class="timeline">
-                <div class="evento">
-                    <strong> 24 de Fevereiro (18h15) </strong>
-                    <p> Abertura Oficial e Sorteio de Cores </p>
+        </section>
+        <section class="container-2 space">
+            <h3> 📌 Onde entregar </h3>
+            <div class="rowFlex">
+                <div class="container shadow-transition margin"> 
+                    <h4> Unidade I </h4>
+                    <p> Av. Major Nicácio, 2433</p>
                 </div>
-                <div class="evento">
-                    <strong> 02 de Março </strong>    
-                    <p> Data limite para informar a entidade social escolhida </p>
-                </div>
-                <div class="evento">
-                    <strong> 24 de Março </strong>
-                    <p> Entrega de alimentos, Suplementos e Comprovantes </p>
-                </div>
-                <div class="evento">
-                    <strong> 27 de março </strong>
-                    <p> Noite de encerramento </p>
+                <div class="container shadow-transition margin"> 
+                    <h4> Unidade II</h4>
+                    <p> Av. Ismael Alonso y Alonso, 2400 </p>
                 </div>
             </div>
         </section>
-        <section>
-            <h3> Onde entregar e onde participar </h3>
-            <div class="grid-locais">
-                <div class="unidade">
-                    <h4> Unidade 1 </h4>
-                    <p> Av. Major Nicácio, 2433 </p>
-                </div>
-                <div class="unidade">
-                    <h4> Unidade II </h4>
-                    <p> Av. Ismael Alonso Y Alonso, 2400 </p>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p>Coordenação Trote Solidário 2026: trotesolidario@facef.br </p>
-        <p>Uni-FACEF - Centro Universitário Municipal de Franca </p>
-    </footer>
-</body>
+       </main>    
+        <footer class="footer">
+            <p>Coordenação Trote Solidário 2026: trotesolidario@facef.br </p>
+            <p>Uni-FACEF - Centro Universitário Municipal de Franca </p>
+        </footer> 
+    </body>
 </html>
